@@ -1,0 +1,50 @@
+<!--pages/renyuanliebiao/renyuanliebiao.wxml-->
+<view class='container'>
+ <view class='content'>
+   <view class='productNav'>
+    <view class='proNavLeft'>
+    <image src='../../images/btn_back.png' class='proNavImage01'></image>
+    </view>
+    <view class='proNavCon'>
+     {{typename}}
+    </view>
+    <view class='proNavRight'>
+     <image src='../../images/search.png' class='proNavImagesearch'></image>
+    </view>
+  </view>
+  <view class='contentcss'>
+   
+   <view class='contentView'>
+     <view class='contentView01'>
+       <image src='http://mecs.ip165.com/Style/image/mxpimage.png' class='contentViewimg'></image>
+     </view>
+     <view class='contentView02'>
+       <view class='contentView02_1'>
+        和很合
+       </view>
+       <view class='contentView02_2'>
+         <view class='contentView02_2_01'><image src='http://mecs.ip165.com/WeiXin/Style/Image/login/call.png' class='contentView02_2_01img'></image></view>
+         <view class='contentView02_2_02'>15856565656</view>
+       </view>
+     </view>
+   </view>
+
+
+    <view class='contentView'>
+     <view class='contentView01'>
+       <image src='http://mecs.ip165.com/Style/image/mxpimage.png' class='contentViewimg'></image>
+     </view>
+     <view class='contentView02'>
+       <view class='contentView02_1'>
+        和很合
+       </view>
+       <view class='contentView02_2'>
+         <view class='contentView02_2_01'><image src='http://mecs.ip165.com/WeiXin/Style/Image/login/call.png' class='contentView02_2_01img'></image></view>
+         <view class='contentView02_2_02'>15856565656</view>
+       </view>
+     </view>
+   </view>
+
+  </view>
+ </view>
+</view>

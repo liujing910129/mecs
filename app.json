@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/dakaguanli/dakaguanli",
+    "pages/renyuanliebiao/renyuanliebiao",
+    "pages/oashenqing/oashenqing",
+    "pages/shenpijilu/shenpijilu",
+    "pages/shenqingjilu/shenqingjilu",
+    "pages/list/list",
+    "pages/yingyong/yingyong",
+    "pages/oashenpi/oashenpi",
+    "pages/myPage/myPage",
+    "pages/qixin/qixin"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "Me平台",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#54a6e0",
+    "backgroundColor": "#efefef",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/yingyong/yingyong",
+        "iconPath": "images/tabbar/shouye1.png",
+        "selectedIconPath": "images/tabbar/shouye2.png",
+        "text": "应用中心"
+      },
+      {
+        "pagePath": "pages/qixin/qixin",
+        "iconPath": "images/tabbar/qixin1.png",
+        "selectedIconPath": "images/tabbar/qixin2.png",
+        "text": "公司企信"
+      },
+      {
+        "pagePath": "pages/myPage/myPage",
+        "iconPath": "images/tabbar/wode1.png",
+        "selectedIconPath": "images/tabbar/wode2.png",
+        "text": "个人中心"
+      }
+    ],
+    "position": "bottom"
+  }
+}

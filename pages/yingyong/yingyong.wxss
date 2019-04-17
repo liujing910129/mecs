@@ -1,0 +1,175 @@
+/* pages/yingyong/yingyong.wxss */
+/*滚动banner*/
+.imgcss{
+ width: 100%;
+ height:auto;
+ margin: 0px auto;
+ overflow: hidden;
+}
+.swipercss{
+  height: 330rpx;
+  position: relative;
+}
+.slide-image{
+ width: 100%;
+ height: 330rpx;
+}
+.navCon{
+  width: 99%;
+  height: auto;
+  border-width: 0;
+  overflow: visible;
+  overflow-x: hidden;
+  padding: 0;
+}
+.navConCss{
+  width: 100%;
+  overflow-y: scroll;
+  margin-top: 5px;
+}
+.navConCss_con{
+    width: 100%;
+    height: 204rpx;
+    display: block;
+    margin-top: 5rpx;
+    overflow: hidden;
+}
+.navCon_left{
+  width: 24%;
+  height: auto;
+  margin: 0px auto;
+  float: left;
+}
+
+.navCon01{ 
+  background-image: url(http://mecs.ip165.com/WeiXin/Style/Image/Menu/xzbg.png);
+  width: 100%;
+  height: 200rpx;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 35rpx;
+  line-height: 200rpx;
+  color: #fff;
+  margin: 5rpx auto;
+}
+.navCon02{ 
+  background-image: url(http://mecs.ip165.com/WeiXin/Style/Image/Menu/renli.png);
+  width: 100%;
+  height: 200rpx;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 35rpx;
+  line-height: 200rpx;
+  color: #fff;
+  margin: 5rpx auto;
+}
+.navCon03{ 
+  background-image: url(http://mecs.ip165.com/WeiXin/Style/Image/Menu/wqgl.png);
+  width: 100%;
+  height: 200rpx;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 35rpx;
+  line-height: 200rpx;
+  color: #fff;
+  margin: 5rpx auto;
+}
+.navCon04{ 
+  background-image: url(http://mecs.ip165.com/WeiXin/Style/Image/Menu/crmgl.png);
+  width: 100%;
+  height: 200rpx;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 35rpx;
+  line-height: 200rpx;
+  color: #fff;
+  margin: 5rpx auto;
+}
+.navCon05{ 
+  background-image: url(http://mecs.ip165.com/WeiXin/Style/Image/Menu/jxc.png);
+  width: 100%;
+  height: 200rpx;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 35rpx;
+  line-height: 200rpx;
+  color: #fff;
+  margin: 5rpx auto;
+}
+.navCon06{ 
+  background-image: url(http://mecs.ip165.com/WeiXin/Style/Image/Menu/guanlizhongxin.png);
+  width: 100%;
+  height: 200rpx;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 35rpx;
+  line-height: 200rpx;
+  color: #fff;
+  margin: 5rpx auto;
+}
+.navCon07{ 
+  background-image: url(http://mecs.ip165.com/WeiXin/Style/Image/Menu/gryy.png);
+  width: 100%;
+  height: 200rpx;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 35rpx;
+  line-height: 200rpx;
+  color: #fff;
+  margin: 5rpx auto;
+}
+.navCon08{ 
+  background-image: url(http://mecs.ip165.com/WeiXin/Style/Image/Menu/ywgl.png);
+  width: 100%;
+  height: 200rpx;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 35rpx;
+  line-height: 200rpx;
+  color: #fff;
+  margin: 5rpx auto;
+}
+.navCon_right{
+  width: 73%;
+  height: 200rpx;
+  float: right;
+  white-space: nowrap;
+  overflow-y: hidden;
+  border-bottom-style: solid;
+  border-bottom-color: #CCC;
+  border-bottom-width: thin;
+}
+
+.navCon_right_ul{
+  width:auto;
+  height:auto;
+  display: block;
+  overflow-y: hidden;
+  margin-top: 5rpx;
+}
+.navConright02{
+  width: 130rpx;
+  height: auto;
+  display: inline-table;
+  margin-right: 10px;
+  text-align: center;
+}
+.navConright02_1{
+  width: 130rpx;
+  height: 130rpx;
+  margin: 0px auto;
+  overflow: hidden;
+}
+.navConright02_1img{
+  width: 130rpx;
+  height: 130rpx;
+  margin: 0px auto;
+}
+.navConright02_2{
+  width: 130rpx;
+  height: auto;
+  margin: 0px auto;
+  font-size: 28rpx;
+  text-align: center;
+  line-height: 60rpx;
+}

@@ -1,0 +1,33 @@
+<!--pages/shenpijilu/shenpijilu.wxml-->
+<view class='container'>
+ <view class='content'>
+   <view class='productNav'>
+    <view class='proNavLeft'>
+    <image src='../../images/btn_back.png' class='proNavImage01'></image>
+    </view>
+    <view class='proNavCon'>
+     {{typename}}
+    </view>
+    <view class='proNavRight'>
+     <image src='../../images/search.png' class='proNavImagesearch'></image>
+    </view>
+  </view>
+   <view class='contentcss'>
+
+    <view class='contentViewcss'  wx:for="{{shenqingjilu}}">
+     <view class='title'>{{item.title}}</view>
+     <view class='buzhou'>
+      <view class='buzhou01'>
+       当前步骤：{{item.buzhou}}
+      </view>
+      <view class='buzhou02'>
+       {{item.state}}
+      </view>
+     </view>
+     <view class='time'>发起时间：{{item.time}}</view>
+    </view>
+
+
+   </view>
+ </view>
+</view>

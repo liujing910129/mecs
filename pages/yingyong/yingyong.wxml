@@ -1,0 +1,204 @@
+<!--pages/yingyong/yingyong.wxml-->
+<view class="container">
+  <view class='imgcss'>
+    <swiper indicator-dots="{{indicatorDots}}" 
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true" class='swipercss'> 
+      <block wx:for="{{arr}}"> 
+        <swiper-item> 
+            <image src="{{item}}" class="slide-image"/> 
+        </swiper-item> 
+      </block> 
+    </swiper>
+  </view>
+  <view class='navCon'>
+   <view class='navConCss'>
+   <!--行政办公-->
+    <view class='navConCss_con'>
+    <view class='navCon_left'>
+      <view class='navCon01'>
+       行政办公
+      </view>
+    </view>
+    <view class='navCon_right'>
+     <view class='navCon_right_ul'>
+
+      <view class='navConright02'   wx:for="{{xingzhengbangong}}">
+        <view class='navConright02_1'>
+         <image src='{{item.picname}}' class='navConright02_1img'></image>
+        </view>
+        <view class='navConright02_2'>
+          {{item.name}}
+        </view>
+      </view>
+
+     </view>
+     </view>
+    </view>
+
+<!--人力资源-->
+    <view class='navConCss_con'>
+    <view class='navCon_left'>
+      <view class='navCon02'>
+       人力资源
+      </view>
+    </view>
+    <view class='navCon_right'>
+     <view class='navCon_right_ul'>
+
+      <view class='navConright02'   wx:for="{{renliziyuan}}">
+        <view class='navConright02_1'>
+         <image src='{{item.picname}}' class='navConright02_1img'></image>
+        </view>
+        <view class='navConright02_2'>
+          {{item.name}}
+        </view>
+      </view>
+
+     </view>
+     </view>
+    </view>
+    
+
+<!--外勤管理-->
+    <view class='navConCss_con'>
+    <view class='navCon_left'>
+      <view class='navCon03'>
+       外勤管理
+      </view>
+    </view>
+    <view class='navCon_right'>
+     <view class='navCon_right_ul'>
+      
+      <view class='navConright02'   wx:for="{{waiqinguanli}}">
+        <view class='navConright02_1'>
+         <image src='{{item.picname}}' class='navConright02_1img'></image>
+        </view>
+        <view class='navConright02_2'>
+          {{item.name}}
+        </view>
+      </view>
+
+     </view>
+     </view>
+    </view>
+
+
+<!--CRM-->
+    <view class='navConCss_con'>
+    <view class='navCon_left'>
+      <view class='navCon04'>
+       CRM
+      </view>
+    </view>
+    <view class='navCon_right'>
+     <view class='navCon_right_ul'>
+      
+      <view class='navConright02'   wx:for="{{crm}}">
+        <view class='navConright02_1'>
+         <image src='{{item.picname}}' class='navConright02_1img'></image>
+        </view>
+        <view class='navConright02_2'>
+          {{item.name}}
+        </view>
+      </view>
+
+     </view>
+     </view>
+    </view>
+
+    <!--进销存-->
+    <view class='navConCss_con'>
+    <view class='navCon_left'>
+      <view class='navCon05'>
+       进销存
+      </view>
+    </view>
+    <view class='navCon_right'>
+     <view class='navCon_right_ul'>
+      
+      <view class='navConright02'   wx:for="{{jinxiaocun}}">
+        <view class='navConright02_1'>
+         <image src='{{item.picname}}' class='navConright02_1img'></image>
+        </view>
+        <view class='navConright02_2'>
+          {{item.name}}
+        </view>
+      </view>
+
+     </view>
+     </view>
+    </view>
+
+
+<!--管理中心-->
+    <view class='navConCss_con'>
+    <view class='navCon_left'>
+      <view class='navCon06'>
+       管理中心
+      </view>
+    </view>
+    <view class='navCon_right'>
+     <view class='navCon_right_ul'>
+      
+      <view class='navConright02'   wx:for="{{guanlizhongxin}}">
+        <view class='navConright02_1'>
+         <image src='{{item.picname}}' class='navConright02_1img'></image>
+        </view>
+        <view class='navConright02_2'>
+          {{item.name}}
+        </view>
+      </view>
+
+     </view>
+     </view>
+    </view>
+
+    <!--个人应用-->
+    <view class='navConCss_con'>
+    <view class='navCon_left'>
+      <view class='navCon07'>
+       个人应用
+      </view>
+    </view>
+    <view class='navCon_right'>
+     <view class='navCon_right_ul'>
+      
+      <view class='navConright02'   wx:for="{{gerenyingyong}}">
+        <view class='navConright02_1'>
+         <image src='{{item.picname}}' class='navConright02_1img'></image>
+        </view>
+        <view class='navConright02_2'>
+          {{item.name}}
+        </view>
+      </view>
+
+     </view>
+     </view>
+    </view>
+
+    <!--业务管理-->
+    <view class='navConCss_con'>
+    <view class='navCon_left'>
+      <view class='navCon08'>
+       业务管理
+      </view>
+    </view>
+    <view class='navCon_right'>
+     <view class='navCon_right_ul'>
+      
+      <view class='navConright02'   wx:for="{{yewuguanli}}">
+        <view class='navConright02_1'>
+         <image src='{{item.picname}}' class='navConright02_1img'></image>
+        </view>
+        <view class='navConright02_2'>
+          {{item.name}}
+        </view>
+      </view>
+
+     </view>
+     </view>
+    </view>
+
+   </view>
+  </view>
+</view>

@@ -1,0 +1,75 @@
+/* pages/renyuanliebiao/renyuanliebiao.wxss */
+.content{
+  width: 100%;
+  height: auto;
+  margin: 0px auto;
+}
+.productNav{
+ width: 100%;
+ height: 80rpx;
+ line-height: 80rpx;
+ background-color: #16B4EE;
+ left: 0;
+ top: 0;
+ position: fixed;
+ z-index: 100;
+}
+
+.contentcss{
+width: 100%;
+height: auto;
+margin-top: 80rpx;
+}
+.contentView{
+ width: 90%;
+ height: 140rpx;
+ margin: 10rpx auto;
+ border-bottom: 1rpx solid #ccc;
+ overflow: hidden;
+}
+.contentView01{
+ width: 20%;
+ height: auto;
+ float: left;
+}
+.contentViewimg{
+ width: 100%;
+ height: 140rpx;
+ margin: 0px auto;
+}
+.contentView02{
+width: 78%;
+height: auto;
+margin: 0px auto;
+float: right;
+}
+.contentView02_1{
+width: 100%;
+height: auto;
+margin: 0px auto;
+font-size: 34rpx;
+line-height: 62rpx;
+}
+.contentView02_2{
+width: 100%;
+height: auto;
+margin: 0px auto;
+}
+.contentView02_2_01{
+width: 15%;
+height:auto;
+margin: 0px auto;
+float: left;
+}
+.contentView02_2_01img{
+width: 76%;
+height: 60rpx;
+margin: 0px auto;
+}
+.contentView02_2_02{
+width: 80%;
+height: auto;
+font-size: 32rpx;
+line-height: 60rpx;
+margin: 0px auto;
+}

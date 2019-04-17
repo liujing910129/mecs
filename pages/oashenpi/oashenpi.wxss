@@ -1,0 +1,134 @@
+/* pages/oashenpi/oashenpi.wxss */
+.content{
+  width: 100%;
+  height: auto;
+  margin: 0px auto;
+}
+
+.productNav{
+ width: 100%;
+ height: 80rpx;
+ line-height: 80rpx;
+ background-color: #16B4EE;
+ left: 0;
+ top: 0;
+ position: fixed;
+ z-index: 100;
+}
+
+/*tab选项卡*/
+swiper {
+display:block;
+}
+
+.swiper-tab{
+  width: 95%;
+  text-align: center;
+  height: 88rpx;
+  line-height: 88rpx;
+  font-weight: bold;
+  font-size: 32rpx;
+  margin: 10rpx auto;
+}
+.swiper-tab-item{
+  display: inline-block;
+  width: 33.33%;
+  color:#333;
+}
+.active{
+  color:#16B4EE;
+  border-bottom: 4rpx solid #16B4EE;
+}
+
+.contentcss{
+width: 100%;
+height:auto;
+margin-top: 85rpx;
+}
+.contentViewcss{
+width: 98%;
+height:auto;
+border: 1rpx solid #ccc;
+border-radius: 20rpx;
+padding: 10rpx 0rpx;
+margin: 0px auto;
+}
+.title{
+width: 95%;
+height: 60rpx;
+margin: 0px auto;
+font-size: 30rpx;
+font-weight: bold;
+color: #333;
+line-height: 60rpx;
+}
+.buzhou{
+width: 95%;
+height: 60rpx;
+margin: 0px auto;
+font-size: 30rpx;
+line-height: 60rpx;
+color: #333;
+}
+.buzhou01{
+width: 50%;
+height: auto;
+float: left;
+text-align: left;
+}
+.buzhou02{
+width: 50%;
+height: auto;
+float: right;
+text-align: right;
+}
+.time{
+width: 95%;
+height: 60rpx;
+margin: 0px auto;
+font-size: 30rpx;
+line-height: 60rpx;
+color: #333;
+}
+.timecss{
+width: 100%;
+height: auto;
+margin: 0px auto;
+overflow: hidden;
+}
+.time01{
+width: 70%;
+height: auto;
+margin: 0px auto;
+float: left;
+}
+.time02{
+ width: 30%;
+ height: auto;
+ margin: 0px auto;
+ float:right;
+}
+.time02css{
+ width: 100%;
+ height: auto;
+ margin: 0px auto;
+}
+.time02_1{
+ width: 48%;
+ height: auto;
+ margin: 0px auto;
+ background-color: #07C7F3;
+ border-radius: 10rpx;
+ color: #fff;
+ text-align: center;
+ float: left;
+}
+.time02_2{
+ width: 48%;
+ height: auto;
+ background-color: #07C7F3;
+ border-radius: 10rpx;
+ color: #fff;
+ text-align: center;
+ float: right;
+}

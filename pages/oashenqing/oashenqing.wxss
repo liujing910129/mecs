@@ -1,0 +1,50 @@
+/* pages/oashenqing/oashenqing.wxss */
+.content{
+  width: 100%;
+  height: auto;
+  margin: 0px auto;
+}
+.productNav{
+ width: 100%;
+ height: 80rpx;
+ line-height: 80rpx;
+ background-color: #16B4EE;
+ left: 0;
+ top: 0;
+ position: fixed;
+ z-index: 100;
+}
+.contentcss{
+width: 100%;
+height: auto;
+margin-top: 80rpx;
+}
+.contentview{
+ width: 100%;
+ height: auto;
+ margin: 0px auto;
+ border-bottom: 1rpx solid #ccc;
+}
+.contentviewcss{
+width: 90%;
+height: auto;
+margin: 0px auto;
+overflow: hidden;
+}
+.contentcssview01{
+ width: 70%;
+ height: auto;
+ float: left;
+ font-size: 34rpx;
+ line-height: 80rpx;
+}
+.contentcssview02{
+ width: 10%;
+ height: 60rpx;
+ float:right;
+}
+.contentimg{
+ width: 90%;
+ height: 60rpx;
+ margin: 10rpx auto;
+}

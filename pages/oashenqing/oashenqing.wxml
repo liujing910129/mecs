@@ -1,0 +1,41 @@
+<!--pages/oashenqing/oashenqing.wxml-->
+<view class='container'>
+ <view class='content'>
+   <view class='productNav'>
+    <view class='proNavLeft'>
+    <image src='../../images/btn_back.png' class='proNavImage01'></image>
+    </view>
+    <view class='proNavCon'>
+     {{typename}}
+    </view>
+    <view class='proNavRight'>
+     <image src='../../images/search.png' class='proNavImagesearch'></image>
+    </view>
+  </view>
+  <view class='contentcss'>
+
+    <view class='contentview'>
+      <view class='contentviewcss'>
+       <view class='contentcssview01'>请假流程</view>
+       <view class='contentcssview02'><image class='contentimg' src='../../images/jiantou.png'></image></view>
+      </view>
+    </view>
+
+    <view class='contentview'>
+      <view class='contentviewcss'>
+       <view class='contentcssview01'>请假流程</view>
+       <view class='contentcssview02'><image class='contentimg' src='../../images/jiantou.png'></image></view>
+      </view>
+    </view>
+
+    <view class='contentview'>
+      <view class='contentviewcss'>
+       <view class='contentcssview01'>请假流程</view>
+       <view class='contentcssview02'><image class='contentimg' src='../../images/jiantou.png'></image></view>
+      </view>
+    </view>
+
+  </view>
+ </view>
+</view>
+

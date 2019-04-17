@@ -1,0 +1,40 @@
+<!--pages/xingzhengbangong/xingzhengbangong.wxml-->
+<view class='container'>
+ <view class='content'>
+   <view class='productNav'>
+    <view class='proNavLeft'>
+    <image src='../../images/btn_back.png' class='proNavImage01'></image>
+    </view>
+    <view class='proNavCon'>
+     行政办公
+    </view>
+    <view class='proNavRight'>
+     <image src='../../images/fhsy.png' class='proNavImage'></image>
+    </view>
+  </view>
+  <view class='imgcss'>
+    <swiper indicator-dots="{{indicatorDots}}" 
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true" class='swipercss'> 
+      <block wx:for="{{arr}}"> 
+        <swiper-item> 
+            <image src="{{item}}" class="slide-image"/> 
+        </swiper-item> 
+      </block> 
+    </swiper>
+  </view>
+   <view class='contentcss'>
+     <view class='contentcss_view'>
+       
+      <view class='navConright02'   wx:for="{{list}}">
+        <view class='navConright02_1'>
+         <image src='{{item.picname}}' class='navConright02_1img'></image>
+        </view>
+        <view class='navConright02_2'>
+          {{item.name}}
+        </view>
+      </view>
+
+     </view>
+   </view>
+ </view>
+</view>

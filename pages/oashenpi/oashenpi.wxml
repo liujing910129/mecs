@@ -1,0 +1,128 @@
+<!--pages/oashenpi/oashenpi.wxml-->
+<view class='container'>
+ <view class='content'>
+   <view class='productNav'>
+    <view class='proNavLeft'>
+    <image src='../../images/btn_back.png' class='proNavImage01'></image>
+    </view>
+    <view class='proNavCon'>
+     {{typename}}
+    </view>
+    <view class='proNavRight'>
+     <image src='../../images/search.png' class='proNavImagesearch'></image>
+    </view>
+  </view>
+  <view class='contentcss'>
+     <view class='contentnav'>
+       <view class="swiper-tab">
+       <view class="swiper-tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="clickTab">待办工作</view>
+       <view class="swiper-tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="clickTab">受托工作</view>
+       <view class="swiper-tab-item {{currentTab==2?'active':''}}" data-current="2" bindtap="clickTab">挂起工作</view>
+     </view>
+  <swiper current="{{currentTab}}" style='height:{{widHeight}}' duration="300" bindchange="swiperTab">
+   <swiper-item>
+
+     <view class='contentViewcss'  wx:for="{{oadaiban}}">
+     <view class='title'>{{item.title}}</view>
+     <view class='buzhou'>
+      <view class='buzhou01'>
+       当前步骤：{{item.buzhou}}
+      </view>
+      <view class='buzhou02'>
+       {{item.state}}
+      </view>
+     </view>
+     <view class='time'>
+      <view class='timecss'>
+       <view class='time01'>
+        发起时间：{{item.time}}
+       </view>
+       <view class='time02'>
+         <view class='time02css'>
+          <view class='time02_1'>
+           办理
+          </view>
+          <view class='time02_2'>
+           挂起
+          </view>
+         </view>
+       </view>
+      </view>
+     </view>
+    </view>
+
+   </swiper-item>
+   <swiper-item>
+     
+     <view class='contentViewcss' wx:for="{{oashoutuo}}">
+     <view class='title'>{{item.title}}</view>
+     <view class='buzhou'>
+      <view class='buzhou01'>
+       当前步骤：{{item.buzhou}}
+      </view>
+      <view class='buzhou02'>
+       {{item.state}}
+      </view>
+     </view>
+     <view class='time'>
+      <view class='timecss'>
+       <view class='time01'>
+        发起时间：{{item.time}}
+       </view>
+       <view class='time02'>
+         <view class='time02css'>
+          <view class='time02_1'>
+           办理
+          </view>
+          <view class='time02_2'>
+           挂起
+          </view>
+         </view>
+       </view>
+      </view>
+     </view>
+    </view>
+
+
+
+   </swiper-item>
+   <swiper-item>
+     
+     
+<view class='contentViewcss'  wx:for="{{oaguaqi}}">
+     <view class='title'>{{item.title}}</view>
+     <view class='buzhou'>
+      <view class='buzhou01'>
+       当前步骤：{{item.buzhou}}
+      </view>
+      <view class='buzhou02'>
+       {{item.state}}
+      </view>
+     </view>
+     <view class='time'>
+      <view class='timecss'>
+       <view class='time01'>
+        发起时间：{{item.time}}
+       </view>
+       <view class='time02'>
+         <view class='time02css'>
+          <view class='time02_1'>
+           办理
+          </view>
+          <view class='time02_2'>
+           挂起
+          </view>
+         </view>
+       </view>
+      </view>
+     </view>
+    </view>
+
+
+   </swiper-item>
+  </swiper>
+  </view>
+
+   </view>
+ </view>
+</view>
